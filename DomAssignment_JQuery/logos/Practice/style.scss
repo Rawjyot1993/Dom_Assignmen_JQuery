@@ -1,0 +1,59 @@
+
+@import "button";
+$primary-color:"#0083c3";
+$bg-color:"#DADADA";
+
+@mixin panel($bg,$border)
+{
+	
+	backgournd:$bg; 
+	border : $border;
+
+}
+
+
+
+.parent{
+
+@include panel("#DADADA","1px solid #000");
+
+	color : $primary-color;
+}
+
+.parent1{
+	color : $primary-color;
+}
+.parent2{
+	color : $primary-color;
+}
+.parent3{
+	color : $primary-color;
+}
+.parent4{
+	color : $primary-color;
+	.link {
+
+
+    background-color:$bg-color;
+
+}
+
+}
+
+.message
+{
+	font-size:12px;
+}
+
+.success
+{	
+	@extend .message;
+	color:green;
+}
+.error
+{
+	
+	@extend .message;
+	font-size:10px;
+	color:red;
+}

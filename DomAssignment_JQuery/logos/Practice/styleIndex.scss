@@ -1,0 +1,174 @@
+$base_color=lightblue;
+.parent {
+	height : 180px;	
+	display: flex;
+}
+.common {
+	height :180px;
+	font-size: 140%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+	height:140px;
+	padding:40px 0px 0px 50px;
+	width:150px;
+}
+.mp{
+	color:base_color;
+    font-size: 150%;
+    padding: 107px 62px 0 77px;
+    width: 100px;
+    height: 60px;
+}
+
+.null{
+	width:650px;
+}
+
+.links{
+    width: 561px;
+    padding: 100px 0px 0px 0px;
+    height: 80px;
+}
+
+.copyright{
+   
+    padding-left: 174px;
+    width: 310px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 26px;
+    color: white;
+
+}
+.sociallogo{
+
+    width: 450px;
+
+}
+.partners{
+
+    width: 376px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 26px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+a{
+	text-decoration: none;
+	color:grey; 
+}
+
+.belowparent
+{
+	height:42px;
+	display: flex;
+}
+
+.links2{
+
+	font-family: Arial, Helvetica, sans-serif;
+    width: 434px;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.null2{
+	    width: 550px;
+}
+
+.input{
+     font-family: Arial, Helvetica, sans-serif;
+    width: 529px;
+    padding-right: 14px;
+    height: 35px;
+    padding-top: 20px;
+    color: lightgray;
+    display: flex;
+	
+}
+
+
+.footparent{
+	height: 400px;
+	display: flex;
+	margin-left:10px;
+	margin-right: 20px; 
+	justify-content:center;
+}
+
+.common2{
+	width:250px;
+	text-align: left;
+
+
+}
+
+
+.footlistcommon{
+	font-family: Arial, Helvetica, sans-serif;
+padding: 5px 0 0 0px;
+list-style-type:none;
+color:lightgrey;
+}
+
+.footlistheading{
+	padding: 8px 0 8px 0;
+color:darkblue;
+font-size: 110%;
+}
+
+.elementscommon
+{
+	padding: 6px 0 6px 0;
+	font-size: 80%;
+}
+ .ulDesign
+ {
+list-style:none; 
+display:flex;
+justify-content : space-around
+ }
+
+ .inputedit
+ {
+ 	    border: 0.1px solid lightgrey;
+    height: 27px;
+    border-radius: 4px;
+    width: 542px;
+    color:lightgray; 
+
+ }
+ .bodyedit
+ {
+
+height:1000px;
+
+ }
+.footerbase{
+    background-color: darkblue;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.Button
+{
+
+border:  0.2px solid lightgray;
+height: 27px;
+border-radius: 4px;
+color:lightgray;
+width:80px; 
+background-color:blue; 
+
+
+
+
+}
